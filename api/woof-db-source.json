@@ -1,0 +1,116 @@
+{
+    "dog": [
+        {
+            "name": "Bella",
+            "photo": "../Photos/Bella.jpeg",
+            "breed": "mini pittie mix",
+            "size": "Small",
+            "human": "Wendy & Chris",
+            "zip_code": "06417",
+            "something_about_yourself": "I like dogs with good manners.",
+            "at_the_park_?": "Y",
+            "park_id": 3,
+            "id": 1
+        },
+        {
+            "name": "Mr. Henry Sullivan",
+            "photo": "../Photos/HenrySullivan.jpeg",
+            "breed": "Treeing Walker Coonhound",
+            "size": "Large",
+            "human": "Wendy & Chris",
+            "zip_code": "06417",
+            "something_about_yourself": "I love to play chase!",
+            "at_the_park_?": "Y",
+            "park_id": 3,
+            "id": 2
+        },
+        {
+            "name": "Eloise",
+            "photo": "../Photos/Ellie.jpeg",
+            "breed": "Chihuahua mix",
+            "size": "Small",
+            "human": "Josh & Trish",
+            "zip_code": "06109",
+            "something_about_yourself": "Big dogs intimidate me!",
+            "at_the_park_?": "N",
+            "park_id": 1,
+            "id": 3
+        },
+        {
+            "name": "Loki",
+            "photo": "../Photos/Loki.jpeg",
+            "breed": "Siberian Husky",
+            "size": "Large",
+            "human": "Sylvana",
+            "zip_code": "06040",
+            "something_about_yourself": "As long as no balls are involved, I'm very mellow!",
+            "at_the_park_?": "N",
+            "park_id": 1,
+            "id": 4
+        },
+        {
+            "name": "Oona",
+            "photo": "../Photos/Oona.jpeg",
+            "breed": "Anatolian/Heeler mix",
+            "size": "Medium",
+            "human": "Diane & Matthias",
+            "zip_code": "06443",
+            "something_about_yourself": "I never met a dog I didn't like!",
+            "at_the_park_?": "Y",
+            "park_id": 4,
+            "id": 5
+        }
+    ],
+    "park": [
+        {
+            "park_name": "string",
+            "town": "string",
+            "coordinates": "0.000, 0.000",
+            "hours": "string",
+            "amenities": "string",
+            "comments": "Y/N",
+            "rating": "1-5",
+            "id": 1
+        },
+        {
+            "park_name": "Paw Dog Park",
+            "town": "Essex",
+            "coordinates": "41.335345, -72.398537",
+            "hours": "temporarily closed",
+            "amenities": "small dog area, poop bags",
+            "comments": "must park in upper lot between December and April",
+            "rating": "2",
+            "id": 2
+        },
+        {
+            "park_name": "Madison Dog Park",
+            "town": "Madison",
+            "coordinates": "41.272346, -72.549974",
+            "hours": "until sunset",
+            "amenities": "poop bags, hand sanitizer, water bowls",
+            "comments": "Near the beach",
+            "rating": "5",
+            "id": 3
+        },
+        {
+            "park_name": "Rocky Hill Dog Park",
+            "town": "Rocky Hill",
+            "coordinates": "41.660178, -72.648414",
+            "hours": "6 AM - 6 PM",
+            "amenities": "water bowls, poop bags",
+            "comments": "Lot of dogs at noon",
+            "rating": "4",
+            "id": 4
+        },
+        {
+            "park_name": "Bailey's Dog Park",
+            "town": "Clinton",
+            "coordinates": "41.305547, -72.527168",
+            "hours": "5 AM - 5 PM",
+            "amenities": "none",
+            "comments": "Bring your own everything",
+            "rating": "2",
+            "id": 5
+        }
+    ]
+}
