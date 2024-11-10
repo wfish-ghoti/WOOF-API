@@ -27,8 +27,8 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * Find who is at the park now.
 
 ## Reference
-* dogs
-* parks
+* [dogs](dog-ref.md)
+* [parks](park-ref.md)
 
 ## Contact us
 For assistance or feature requests, contact us at [support@woof-api.com](mailto:support@woof-api.com).
