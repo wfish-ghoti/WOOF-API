@@ -15,13 +15,12 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 
 ## Get satrted
 * Connect to the WOOF API!
-* Read the Quick Start Guide to find a dog park in your city.
+* Read the Quick Start Guide to find a dog park in your city, then add your dog's profile to WOOF!.
 
 ## Tutorials
 * Find a list of parks by Postcode.
 * Find the best parks (user-rated) in your city.
-* Add your dog's profile to WOOF!.
-* Update dog presence.
+* Update your dog's presence at the park.
 * Remove a dog from WOOF!.
 * Find a park with other small dogs in your city.
 * Find who is at the park now.
