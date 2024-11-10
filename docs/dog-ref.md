@@ -10,7 +10,7 @@ Base endpoint:
 **Dog** contains details about the dog(s) registered in the WOOF! API. 
 
 ## Resource properties
-Sampe `dog` resource
+Sample `dog` resource
 
 ```json
 {
@@ -26,6 +26,7 @@ Sampe `dog` resource
   "id": 4
 }
 ```
+
 **Note:** All properties are required.
 
 |Property name   |Type   |Description   |   
@@ -33,10 +34,11 @@ Sampe `dog` resource
 | `name`  |string   | The name of the dog.  |
 | `photo`  |string   | File path to the dog's photo.  |   
 | `breed`  |string   | The record ID of the user.  |   
-| `size`  |string   | The size category of the dog: small, medium, lerge.  |   
-| `human`  |string  | The name of the owner or person in charge. Multiple values allowed if comma separated. Can be full name or first name only.  |   
+| `size`  |string   | The size category of the dog: Small, Medium, Large.  |   
+| `human`  |string  | The name of the owner or person in charge. Multiple values allowed if comma separated. Can be full name or first name only.  | 
+| `zip_code`  |string   | Zip Code where dog and humans reside.  |   
 | `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
-| `at_the_park_?`  |boolean   | Whether the dog is at the park right now: True/False. Default value is False. |   
+| `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
 | `park_idd`  |number   | The record ID of the park.  |   
 | `id`  |number   | The record ID of the dog.  |   
 
@@ -48,14 +50,20 @@ Sampe `dog` resource
 
 #### Sample request
 
-`http://localhost:3000/dog/`
+```
+http://localhost:3000/dog?size=Medium
+```
 
-#### (Optional) Parameters
-* size
-* zip_code
-* at_the_park_?
+#### (Optional) Query Parameters
+|Property name   |Type   |Description   |   
+|---|---|---|
+| `size`  |string   | Filter by dog size category.  |  
+| `zip_code`  |string   | Filter by zip code where dog and humans reside.  |   
+| `at_the_park_?`  |boolean   | Filter by dog currently present at the park |   
 
 #### Sample response
+Status code: `200 OK`
+
 ```json
  {
         "name": "Oona",
@@ -75,14 +83,18 @@ Sampe `dog` resource
 
 **GET**/dog/{id}
 #### Sample request
+```
 http://localhost:3000/dog/4
+```
 #### Parameters
 
 |Parameter name   |Type   |Description   |   
 |---|---|---|
-| `id`  |number   | The record ID of the dog.   |   
+| `id`  |number   | Filter by the dog's record ID.   |   
 
 #### Sample response
+Status code: `200 OK`
+
 ```json
 {
     "name": "Loki",
@@ -104,8 +116,13 @@ http://localhost:3000/dog/4
 **POST**/dog
 
 #### Sample request
+```
 http://localhost:3000/dog/
+```
 
+### Sample body
+Status code: `201 Created`
+```json
  {
             "name": "Beckett",
             "photo": "../Photos/Beckett.jpeg",
@@ -117,9 +134,24 @@ http://localhost:3000/dog/
             "at_the_park_?": "N",
             "park_id": 3
         }
+```
+
 #### Parameters
+|Parameter name   |Type   |Description   |   
+|---|---|---|
+| `name`  |string   | The name of the dog.  |
+| `photo`  |string   | File path to the dog's photo.  |   
+| `breed`  |string   | The record ID of the user.  |   
+| `size`  |string   | The size category of the dog: Small, Medium, Large.  |   
+| `human`  |string  | The name of the owner or person in charge. Multiple values allowed if comma separated. Can be full name or first name only.  | 
+| `zip_code`  |string   | Zip Code where dog and humans reside.  |   
+| `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
+| `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
+| `park_idd`  |number   | The record ID of the park.  |    
 
 #### Sample response
+`201 Created`
+```json
 {
     "name": "Beckett",
     "photo": "../Photos/Beckett.jpeg",
@@ -132,26 +164,28 @@ http://localhost:3000/dog/
     "park_id": 3,
     "id": 9
 }
-
+```
 ### Update the details a of dog
 
-**PUT**/dog/{id}
-http://localhost:3000/dog/9
+**PATCH**/dog/{id}
+
 #### Sample request
+```
+http://localhost:3000/dog/9
+```
+
+#### Sample body
+Status code: `200 OK`
+
+```json
 {
-            "name": "Beckett Jr.",
-            "photo": "../Photos/Beckett.jpeg",
-            "breed": "Irish Wolfhound",
-            "size": "Large",
-            "human": "Samuel and Suzanne",
-            "zip_code": "06040",
-            "something_about_yourself": "Plays tough with big guys and gentle with little ones.",
-            "at_the_park_?": "N",
-            "park_id": 4
-        }
+  "name": "Beckett Jr"
+}
+```
 #### Parameters
 
 #### Sample response
+```json
 {
     "name": "Beckett Jr.",
     "photo": "../Photos/Beckett.jpeg",
@@ -164,11 +198,14 @@ http://localhost:3000/dog/9
     "park_id": 4,
     "id": 9
 }
-
+```
 ### Delete the details of a dog from WOOF!
 
 **DELETE**/dog/{id}
+#### Sample request
+```
 http://localhost:3000/dog/8
+```
 #### Sample request
 ```
 DELETE/dog/3
@@ -178,6 +215,13 @@ DELETE/dog/3
 |---|---|---|
 | `id`  |number   | The record ID of the dog to remove. |  
 #### Sample response
-[]
+Status code: `200 OK`
 
+```json
+[]
+```
+
+## Related topics
+* parks
+* tutorials
 
