@@ -76,13 +76,17 @@
       "name": "Toby",
       "photo": "../Photos/Toby.jpeg",
       "breed": "French Bulldog",
-      "size": "Small",
+      "size": "Smakk",
       "human": "Colette",
-      "zip_code": "06040",
-      "something_about_yourself": "A mummy's boy, slow to get going, but very social.",
+      "zip_code": "06109",
+      "something_about_yourself": "A little shy at first, but very social.",
       "at_the_park_?": "N",
       "park_id": 1,
       "id": 7
+    },
+    {
+      "name": "Toby-chien",
+      "id": 8
     }
   ],
   "park": [
