@@ -220,6 +220,6 @@ Status code: `200 OK`
 ```
 
 ## Related topics
-* parks
+* [parks](park-ref.md)
 * tutorials
 
