@@ -57,9 +57,9 @@ http://localhost:3000/dog?size=Medium
 #### (Optional) Query Parameters
 | Parameter name   |Type   |Description   |   
 |---|---|---|
-| `size`  |string   | Filter by dog size category.  |  
-| `zip_code`  |string   | Filter by zip code where dog and humans reside.  |   
-| `at_the_park_?`  |boolean   | Filter by dog currently present at the park |   
+| `size`  |string   | Dog size category.  |  
+| `zip_code`  |string   | Zip code where dog and humans reside.  |   
+| `at_the_park_?`  |boolean   | Is the dog currently present at the park? |   
 
 #### Sample response
 Status code: `200 OK`
