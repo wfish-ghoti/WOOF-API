@@ -121,7 +121,7 @@ http://localhost:3000/dog/
 ```
 
 ### Sample body
-Status code: `201 Created`
+
 ```json
  {
             "name": "Beckett",
