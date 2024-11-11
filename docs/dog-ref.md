@@ -175,16 +175,17 @@ http://localhost:3000/dog/9
 ```
 
 #### Sample body
-Status code: `200 OK`
 
 ```json
 {
   "name": "Beckett Jr"
 }
 ```
-#### Parameters
 
 #### Sample response
+
+Status code: `200 OK`
+
 ```json
 {
     "name": "Beckett Jr.",
@@ -204,12 +205,9 @@ Status code: `200 OK`
 **DELETE**/dog/{id}
 #### Sample request
 ```
-http://localhost:3000/dog/8
+http://localhost:3000/dog/3
 ```
-#### Sample request
-```
-DELETE/dog/3
-```
+
 #### Parameters
 |Parameter name   |Type   |Description   |   
 |---|---|---|
