@@ -135,6 +135,16 @@
       "comments": "Bring your own everything",
       "rating": "2",
       "id": 5
+    },
+    {
+      "park_name": "Indian Ledge Park",
+      "town": "Trumbull",
+      "coordinates": "41.242874, -73.200669",
+      "hours": "9am - 7pm, Veterans Day might affect these hours",
+      "amenities": "off-leash area, poo bags, separate areas for small and large dogs",
+      "comments": "All dogs must be neutered or spayed to access the park. A Trumbull resident sticker is required for parking.",
+      "rating": "4",
+      "id": 6
     }
   ]
 }
