@@ -29,7 +29,7 @@ Sample `dog` resource
 
 **Note:** All properties are required.
 
-|Property name   |Type   |Description   |   
+|Parameter name   |Type   |Description   |   
 |---|---|---|
 | `name`  |string   | The name of the dog.  |
 | `photo`  |string   | File path to the dog's photo.  |   
@@ -55,7 +55,7 @@ http://localhost:3000/dog?size=Medium
 ```
 
 #### (Optional) Query Parameters
-|Property name   |Type   |Description   |   
+| Parameter name   |Type   |Description   |   
 |---|---|---|
 | `size`  |string   | Filter by dog size category.  |  
 | `zip_code`  |string   | Filter by zip code where dog and humans reside.  |   
