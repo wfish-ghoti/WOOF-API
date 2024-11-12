@@ -13,7 +13,7 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * **Pet owners** and **professional dog walkers** looking to enhance their dog-walking experience by finding compatiple dogs company for their four-legged friend.
 * **Park users** who might want to have fun with other people's dogs (and those who'd rather avoid them altogether).
 
-## Get satrted
+## Get started
 * Connect to the WOOF API!
 * Read the Quick Start Guide to find a dog park in your city, then add your dog's profile to WOOF!.
 
