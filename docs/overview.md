@@ -23,7 +23,7 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * Update your dog's presence at the park.
 * Remove a dog from WOOF!.
 * Find a park with other small dogs in your city.
-* Find who is at the park now.
+* Find who is at your favourite park now.
 
 ## Reference
 * [dogs](dog-ref.md)
