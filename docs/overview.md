@@ -30,4 +30,4 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * [parks](park-ref.md)
 
 ## Contact us
-For assistance or feature requests, contact us at [support@woof-api.com](mailto:support@woof-api.com).
+For assistance or feature requests, contact us at <support@woof-api.com>.
