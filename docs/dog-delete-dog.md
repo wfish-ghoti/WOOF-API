@@ -7,7 +7,7 @@ Delete the details of a `dog` from the WOOF! API.
 ## Parameters
 |Parameter name   |Type   |Description   |   
 |---|---|---|
-| `id`  |number   | The record ID of the dog to remove. |  
+| `id`  |integer   | The record ID of the dog to remove. |  
 
 ## Sample request
 ```
