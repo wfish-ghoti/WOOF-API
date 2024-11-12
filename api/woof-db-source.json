@@ -61,18 +61,6 @@
       "id": 5
     },
     {
-      "name": "Beckett",
-      "id": 6,
-      "photo": "../Photos/Beckett.jpeg",
-      "breed": "Irish Wolfhound",
-      "size": "Large",
-      "human": "Samuel and Suzanne",
-      "zip_code": "06040",
-      "something_about_yourself": "Plays tough with big guys and gentle with little ones.",
-      "at_the_park_?": "N",
-      "park_id": 3
-    },
-    {
       "name": "Toby",
       "photo": "../Photos/Toby.jpeg",
       "breed": "French Bulldog",
