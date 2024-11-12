@@ -15,12 +15,12 @@ Delete the details of a `dog` from the WOOF! API.
 ```
 
 ## Sample response
-Returns an empty array.
+Returns an empty object.
 
 Status code: `200 OK`
 
 ```json
-[]
+{}
 ```
 ## Response status
 |Status value   |Return status  |Description   |   
